@@ -417,7 +417,7 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : Approval ke liye channel subscribe kre")
+		print("\033[1;37m𝗡𝗢𝗧𝗘 : I LOVE YOU RUBAIYA")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
